@@ -20,6 +20,9 @@ Si buscas un **punto de inicio para desarrollar micro-servicios o servicios en l
 
 # Modo de utilización 
 
+**Verifique los prerequisitos en caso de no tener instalado Docker o FastApi*
+
+
 0)  mkdir pruebas; cd pruebas
 
     *Crea tu directorio en la ubicación que desees y accede a él.*
@@ -30,7 +33,7 @@ Si buscas un **punto de inicio para desarrollar micro-servicios o servicios en l
 
 2)  cd fastapi_docker_template
     
-    *Una vez descargado/clonado, accede a la carpeta principal del proyecto.
+    *Una vez descargado/clonado, accede a la carpeta principal del proyecto.*
 
 3)  docker build -t fastapi_image_test .
     
@@ -65,12 +68,20 @@ Si buscas un **punto de inicio para desarrollar micro-servicios o servicios en l
 # Para modificar la api:
 
 1)  cd pruebas/fastapi_docker_template/api_files
+
     *Accede a la ruta del directorio "fastapi_docker_template/api_files"*
 
 2)  main.py
-    *Localiza y edita a tu gusto el archivo main.py*
+
+   *Localiza y edita a tu gusto el archivo main.py*
+   
+   
+# Prerequisitos:
+
+**Docker Container**
+**FastApi**    
     
-    
+
     
     
 Si te sirve, no olvides calificar y seguir. :) 
